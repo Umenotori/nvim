@@ -1,3 +1,1 @@
-require("remap")
-require("options")
-
+require("Tadashi")
