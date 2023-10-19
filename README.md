@@ -4,7 +4,7 @@
 
 The bare minimum plugins are:
 
-- A package manager (Lazy.nvim)
+- A package manager (Packer.nvim)
 - A fuzzy finder (Telescope)
 - Treesitter
 - A LSP server and auto completion (LSP zero)
