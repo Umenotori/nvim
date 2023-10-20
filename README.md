@@ -32,7 +32,7 @@ The lsp server can be downloaded by mason.nvim using ` :Mason `
 
 | Keymaps                   | Description                    |
 | ------------------------- | ------------------------------ |
-| vim.g.mapleader = " "<br> | <leader> = space               |
+| vim.g.mapleader = " "     | <leader> = space               |
 | "v", J                    | moves selected text down       |
 | "v", K                    | moves selected text up         |
 | J                         | cursor stays in place          |
@@ -51,7 +51,7 @@ The lsp server can be downloaded by mason.nvim using ` :Mason `
 | Keymaps         | Description |
 | --------------- | ----------- |
 | <leader>pf      | find files  |
-| <C-p>           | git files   |
+| <kbd>Control</kbd> + <kbd>P</kbd>          | git files   |
 | <leader>ps      | grep        |
 | <leader>vh      | help tags   |
 
