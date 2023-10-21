@@ -32,83 +32,83 @@ The lsp server can be downloaded by mason.nvim using ` :Mason `
 
 | Keymaps                   | Description                    |
 | ------------------------- | ------------------------------ |
-| vim.g.mapleader = " "     | <leader> = space               |
+| vim.g.mapleader = " "     | [leader] = <kbd>space          |
 | "v", J                    | moves selected text down       |
 | "v", K                    | moves selected text up         |
 | J                         | cursor stays in place          |
-| <leader>p                 | p multiple times same text     |
-| <leader>y                 | y into + register (clipboard)  |
-| <leader>d                 | d into void register           |
-| <C-k>                     | quickfix navigation            |
-| <C-j>                     | quickfix navigation            |
-| <leader>k                 | quickfix navigation            |
-| <leader>j                 | quickfix navigation            |
-| <leader>s                 | replace word on cursor (\`:%s) |
-| <leader>pv                | back to netrw (\`:Ex\`)        |
+| [leader] p                | p multiple times same text     |
+| [leader] y                | y into + register (clipboard)  |
+| [leader] d                | d into void register           |
+| [C-k]                     | quickfix navigation            |
+| [C-j]                     | quickfix navigation            |
+| [leader] k                | quickfix navigation            |
+| [leader] j                | quickfix navigation            |
+| [leader] s                | replace word on cursor (`:%s`) |
+| [leader] pv               | back to netrw   (`:Ex`)        |
 
 ### Nvim Telescope
 
 | Keymaps         | Description |
 | --------------- | ----------- |
-| <leader>pf      | find files  |
-| <kbd>Control</kbd> + <kbd>P</kbd>          | git files   |
-| <leader>ps      | grep        |
-| <leader>vh      | help tags   |
+| [leader] pf     | find files  |
+| [C-p]           | git files   |
+| [leader] ps     | grep        |
+| [leader] vh     | help tags   |
 
 ### Nvim Harpoon
 
 | Keymaps   | Description    |
 | --------- | -------------- |
-| <leader>a | mark add file  |
-| <C-e>     | ui toggle menu |
-| <C-h>     | nav file 1     |
-| <C-t>     | nav file 2     |
-| <C-n>     | nav file 3     |
-| <C-s>     | nav file 4     |
+| [leader] a| mark add file  |
+| [C-e]     | ui toggle menu |
+| [C-h]     | nav file 1     |
+| [C-t]     | nav file 2     |
+| [C-n]     | nav file 3     |
+| [C-s]     | nav file 4     |
 
 ### Nvim Undotree
 
 | Keymaps   | Descriptions   |
 | --------- | -------------- |
-| <leader>u | undotreetoggle |
-| <C-w>h    | change window  |
+| [leader] u| undotreetoggle |
+| [C-w]h    | change window  |
 
 ### Nvim Fugitive
 
 | Keymaps    | Descriptions |
 | ---------- | ------------ |
-| <leader>gs | Git status   |
+| [leader] gs| Git status   |
 
 ### Nvim LSP-Zero
 
 | Keymaps     | Descriptions     |
 | ----------- | ---------------- |
-| <C-p>       | prev item        |
-| <C-n>       | next item        |
-| <C-y>       | confirm          |
-| <C-Space>   | complete         |
+| [C-p]       | prev item        |
+| [C-n]       | next item        |
+| [C-y]       | confirm          |
+| [C-Space]   | complete         |
 | gd          | definition       |
 | K           | hover            |
-| <leader>vws | workspace_symbol |
-| <leader>vd  | diagn open_float |
+| [leader] vws| workspace_symbol |
+| [leader] vd | diagn open_float |
 | [d          | diagn goto_next  |
 | ]d          | diagn goto_prev  |
-| <leader>vca | code_action      |
-| <leader>vrr | references       |
-| <leader>vrn | rename           |
-| "i", <C-h>  | signature_help   |
+| [leader] vca| code_action      |
+| [leader] vrr| references       |
+| [leader] vrn| rename           |
+| "i", [C-h]  | signature_help   |
 
 ### Nvim Refactoring
 
 | Keymaps        | Descriptions        |
 | -------------- | ------------------- |
-| **<**leader>ri | refactor inline var |
+| [leader] ri    | refactor inline var |
 
 ### Nvim Trouble
 
 | Keymaps    | Descriptions           |
 | ---------- | ---------------------- |
-| <leader>xq | TroubleToggle quickfix |
+|[leader] xq | TroubleToggle quickfix |
 
 [packer]: https://github.com/wbthomason/packer.nvim
 [telescope]: https://github.com/nvim-telescope/telescope.nvim
