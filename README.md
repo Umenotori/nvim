@@ -22,9 +22,9 @@ The bare minimum plugins are:
 
 ## General Instructions
 
-First install need to download packer from 'git clone --depth 1 https://github.com/wbthomason/packer.nvim\
- ~/.local/share/nvim/site/pack/packer/start/packer.nvim' and run ':PackerSync'.
- May be needed to download java from the package manager to instal .npm files.
+First install need to download packer from ` git clone --depth 1 https://github.com/wbthomason/packer.nvim\
+ ~/.local/share/nvim/site/pack/packer/start/packer.nvim ` and run ` :PackerSync `.
+ May be needed to download java (npm) from the package manager to instal .npm files.
 It's needed to ` :source ` (`:so`) the packer.lua file everytime a plugin is changed, including on install.
 Almost every plugin includes a file in after/plugin for settings.
 The lsp server can be downloaded by mason.nvim using ` :Mason `
